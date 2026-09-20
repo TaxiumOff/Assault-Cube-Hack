@@ -1,0 +1,2 @@
+C:\Users\ILIAN.MAANAN\AppData\Local\Python\pythoncore-3.14-64\Scripts\pyinstaller.exe --onefile --name BulletHack --icon cheat_logo.ico bulletHack.py
+C:\Users\ILIAN.MAANAN\AppData\Local\Python\pythoncore-3.14-64\Scripts\pyinstaller.exe --onefile --name ShieldHack --icon cheat_logo.ico shieldHack.py

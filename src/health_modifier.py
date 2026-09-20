@@ -1,9 +1,11 @@
 import pymem
 
+
 # init
 pm = pymem.Pymem("ac_client.exe")
 
 # variables
+# Don't forget to change the value
 health_address = 0x0070D4A4
 
 # reading memory
