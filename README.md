@@ -30,11 +30,10 @@ Il cible [AssaultCube](https://assault.cubers.net/), un FPS open source gratuit,
 
 | Script | Effet | Offset |
 |---|---|---|
-| `bulletHack_ui.py` | Munitions infinies (valeur verrouillée à 999) | `+0x140` |
+| `bulletHack.py` | Munitions infinies (valeur verrouillée à 999) | `+0x140` |
 | `shieldHack.py` | Bouclier toujours plein (valeur verrouillée à 100) | `+0xF0` |
-| `bulletHack.py` | Version minimaliste des munitions, sans interface colorée | `+0x140` |
 
-Les scripts avec interface affichent en direct :
+Les deux scripts affichent en direct :
 - l'état (actif ou en attente d'une partie) avec un spinner animé ;
 - l'adresse de la structure du joueur ;
 - la valeur réelle lue en mémoire ;
@@ -73,7 +72,7 @@ pip install pymem colorama
 2. Ouvre un terminal (idéalement **en administrateur**) et lance le script voulu :
 
 ```bash
-python bulletHack_ui.py     # munitions infinies
+python bulletHack.py        # munitions infinies
 python shieldHack.py        # bouclier infini
 ```
 
@@ -128,9 +127,8 @@ L'exécutable se trouve ensuite dans le dossier `dist/`.
 
 ```
 .
-├── bulletHack.py        # munitions, version minimaliste
-├── bulletHack_ui.py     # munitions, interface colorama
-├── shieldHack.py        # bouclier, interface colorama
+├── bulletHack.py        # munitions infinies
+├── shieldHack.py        # bouclier infini
 ├── cheat_logo.ico       # icône (7 tailles, de 16 à 256 px)
 ├── cheat_logo.png       # logo pour ce README
 └── README.md
